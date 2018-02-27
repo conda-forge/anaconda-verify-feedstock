@@ -1,6 +1,6 @@
 {% set name = "anaconda-verify" %}
 {% set version = "1.3.8" %}
-{% set checksum = "e790262f88b3c3ef4ac9d647e0a385ea8ec665ba34509879d0a2270456f5220e" %}
+{% set checksum = "5f5835801c6c205bb87a772353388a7073bb9891d869e147594736a9e339d770" %}
 
 package:
   name: {{ name }}
