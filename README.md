@@ -14,14 +14,15 @@ Summary: tool for validating conda recipes and conda packages
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/anaconda-verify-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/anaconda-verify-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/anaconda-verify-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/anaconda-verify-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/anaconda-verify-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/anaconda-verify-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/anaconda-verify-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/anaconda-verify-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/anaconda-verify/badges/version.svg)](https://anaconda.org/conda-forge/anaconda-verify)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/anaconda-verify/badges/downloads.svg)](https://anaconda.org/conda-forge/anaconda-verify)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-anaconda--verify-green.svg)](https://anaconda.org/conda-forge/anaconda-verify) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/anaconda-verify.svg)](https://anaconda.org/conda-forge/anaconda-verify) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/anaconda-verify.svg)](https://anaconda.org/conda-forge/anaconda-verify) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/anaconda-verify.svg)](https://anaconda.org/conda-forge/anaconda-verify) |
 
 Installing anaconda-verify
 ==========================
