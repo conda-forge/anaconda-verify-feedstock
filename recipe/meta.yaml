@@ -13,21 +13,23 @@ source:
 
 build:
   noarch: python
-  number: 1
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 2
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
     - anaconda-verify = anaconda_verify.main:main
 
 requirements:
   host:
     - pip
-    - python
+    - python {{ python_min }}
 
   run:
-    - python
+    - python >={{ python_min }}
     - pyyaml
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - anaconda_verify
 
